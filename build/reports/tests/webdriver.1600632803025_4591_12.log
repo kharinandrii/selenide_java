@@ -1,0 +1,199 @@
+[1600632803,215][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28072
+[1600632803,216][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600632803,622][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/dark-qa/IdeaProjects/selenide_java/build/downloads/1600632802272_4591_12",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/dark-qa/IdeaProjects/selenide_java/build/downloads/1600632802272_4591_12",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600632803,623][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/dark-qa/IdeaProjects/selenide_java/build/downloads/1600632802272_4591_12"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600632803,623][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600632803,623][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.kaj3Ir data:,
+[1600632804,832][INFO]: resolved localhost to ["127.0.0.1"]
+[1600632806,061][INFO]: resolved localhost to ["127.0.0.1"]
+[1600632806,139][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "/tmp/.com.google.Chrome.kaj3Ir"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:43805"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "75751c834c23bd536b4d27222026f840"
+}
+[1600632806,335][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600632806,335][INFO]: Waiting for pending navigations...
+[1600632806,340][INFO]: Done waiting for pending navigations. Status: ok
+[1600632806,453][INFO]: Waiting for pending navigations...
+[1600632806,454][INFO]: Done waiting for pending navigations. Status: ok
+[1600632806,454][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 34
+}
+[1600632806,533][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND Navigate {
+   "url": "http://opencart.abstracta.us/"
+}
+[1600632806,533][INFO]: Waiting for pending navigations...
+[1600632806,534][INFO]: Done waiting for pending navigations. Status: ok
+[1600632809,003][INFO]: Waiting for pending navigations...
+[1600632811,624][INFO]: Done waiting for pending navigations. Status: ok
+[1600632811,624][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE Navigate
+[1600632811,878][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[text() = 'My Account']"
+}
+[1600632811,878][INFO]: Waiting for pending navigations...
+[1600632811,879][INFO]: Done waiting for pending navigations. Status: ok
+[1600632811,903][INFO]: Waiting for pending navigations...
+[1600632811,903][INFO]: Done waiting for pending navigations. Status: ok
+[1600632811,903][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "97aa51d5-c554-4c9f-8ddd-a65518d1ca79"
+}
+[1600632811,999][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "97aa51d5-c554-4c9f-8ddd-a65518d1ca79"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600632811,999][INFO]: Waiting for pending navigations...
+[1600632812,000][INFO]: Done waiting for pending navigations. Status: ok
+[1600632812,024][INFO]: Waiting for pending navigations...
+[1600632812,026][INFO]: Done waiting for pending navigations. Status: ok
+[1600632812,026][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE ExecuteScript true
+[1600632812,042][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND ClickElement {
+   "id": "97aa51d5-c554-4c9f-8ddd-a65518d1ca79"
+}
+[1600632812,042][INFO]: Waiting for pending navigations...
+[1600632812,043][INFO]: Done waiting for pending navigations. Status: ok
+[1600632812,186][INFO]: Waiting for pending navigations...
+[1600632812,187][INFO]: Done waiting for pending navigations. Status: ok
+[1600632812,187][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE ClickElement
+[1600632812,316][INFO]: [75751c834c23bd536b4d27222026f840] COMMAND Quit {
+
+}
+[1600632812,379][INFO]: [75751c834c23bd536b4d27222026f840] RESPONSE Quit
