@@ -9,12 +9,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-public class RegisterTests {
+public class RegisterTests extends BaseTest {
     Params params = new Params();
     MainPage mainPage = new MainPage();
     @BeforeEach
     void openSite() {
-        open(params.URL);
+        open("/");
         Selenide.clearBrowserCookies();
         Selenide.clearBrowserLocalStorage();
     }
