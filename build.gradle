@@ -14,7 +14,10 @@ ext{
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:$junit5Ver", 'com.codeborne:selenide:5.14.2')
+    implementation(
+            "com.codeborne:selenide:5.10.0"
+    )
+    testImplementation("org.junit.jupiter:junit-jupiter-api:$junit5Ver")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junit5Ver")
 }
 
